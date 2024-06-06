@@ -1,0 +1,149 @@
+.header{
+  background-color:rgba(26,30,31,1);
+  color: rgb(244,244,244,1);
+  width:100%; 
+   position: absolute; 
+   /* bottom:0; */
+   /* left:0;
+   right:0;
+   top:0; */
+   display: flex;
+   justify-content: space-around;
+  padding: 17px 0px;
+  z-index: 1;
+
+}
+
+.nav {
+  display: flex;
+  /* flex-direction: column; */
+  height:100%;
+  width:100%;
+  justify-content: space-around;
+
+
+}
+
+.nav-list {
+ padding: 0 10px;
+
+ 
+}
+.cover-container { 
+  position:absolute;
+ top: 73px;
+ text-align: start;
+ color:white;
+ background-color: none;
+}
+
+.cover {
+  object-fit:contain;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.cover-text {
+  font-size: 42px;
+  line-height: 1.6em;
+    letter-spacing: 0em;
+    position: absolute;
+    top:20%;
+    left:15%;
+    background-color: transparent;
+}
+
+.page-info {
+  /* display:block; */
+  background-color: rgb(43, 43, 43);  
+font-family:Arial, Helvetica, sans-serif;
+font-size: 28px;
+height: 464.781px;
+position:absolute; 
+top:415px;
+color:white;
+width:100%;
+
+text-align: start;
+line-height: 1.6em;
+
+}
+.text {
+  position:relative;
+  top:50px;
+  left:15%;
+  bottom:60px;
+}
+.link-to-general-info {
+  color: rgb(0, 174, 243);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+.third-section {
+  display: block;
+  background-color: rgb(22, 22, 22);
+  width:100%;
+
+}
+
+.learning-courses {
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  position:absolute;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+   top:780px;
+  
+
+}
+
+.course-container {
+  max-width:300px;
+  height:393px;
+  padding: 0px 0px 16px 0px;
+  border: 0.01px solid #bcc5d9; 
+  border-radius: 5px;
+  margin-bottom:48px;
+  margin-left:15%;
+  margin-top:5%;
+  display: block;
+ 
+}
+
+.course-img{
+  width:100%;
+  height:auto;
+  object-fit: cover;
+}
+.course-details {
+  
+  margin-top: 60px;
+  display: inline-block;
+  margin-top: 50px;
+  color:rgb(0, 174, 239)
+}
+
+.course-name {
+  color:white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.start-date {
+  margin-top:30px;
+  color:white;
+  font-size: 14px;
+}
+.arrow {
+ 
+  color:rgb(0, 174, 239);
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
+fill: #00AEEF;
+}
+
